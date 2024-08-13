@@ -1,0 +1,510 @@
+
+body{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.upwork{
+    height: 40px;
+}
+
+.container{
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar{
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.navbar ul li{
+    cursor: pointer;
+}
+
+
+.btn{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login{
+    cursor: pointer;
+}
+
+.search{
+    padding: 10px;
+    border-radius: 99px;
+    border: none;
+    width: 100%;
+}
+
+.signup{
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+
+.development{
+    display: flex;
+    align-items: center;
+    
+}
+
+.development ul{
+    display: flex;
+    list-style-type: none;
+    gap : 20px;
+}
+
+.development ul li{
+    cursor: pointer;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0;
+}
+
+.download{
+    height: 300px;
+    max-width: 700px;
+}
+
+.start{
+    padding: 0 40px;
+}
+
+.how{
+    font-size: 5em;
+    line-height: 75px;
+}
+
+.forget{
+    font-size: 1.5em;
+    color: gray;
+    line-height: 35px;
+}
+
+.get-started{
+    padding: 12px 24px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.by{
+    padding: 50px 90px 0;
+}
+
+.logos{
+    display: flex;
+    gap: 10px;
+    padding: 0 70px;
+}
+
+.microsoft{
+    height: 60px;
+}
+
+.bissell{
+    height: 50px;
+}
+
+.lens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo{
+    max-width: 800px;
+    height: 400px;
+    padding: 50px 80px;
+}
+
+.paragraph{
+    max-width: 1200px;
+    height: 460px;
+    padding: 10px 20px;
+}
+
+.game{
+    font-size: 2.4em;
+    font-weight: unset;
+}
+
+.register{
+    font-size: 1.4em;
+}
+
+.browse{
+    padding: 0 30px;
+}
+
+.learn{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.free{
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid green;
+    color: green;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.talent{
+    padding: 0 80px;
+    font-size: 2.2em;
+    font-weight: unset;
+}
+
+.look{
+    padding: 0 80px;
+}
+
+.job{
+    color: green;
+}
+
+.admin{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 80px;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.admin:hover{
+    cursor: pointer;
+}
+
+.writing{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    height: 150px;
+    width: 280px;
+    background-color: rgb(0,0,0,0.03);
+
+}
+
+.IT{
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+
+.translate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    gap: 50px;
+}
+
+.enterprise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 49, 51);
+    color: white;
+    border-radius: 10px;
+    margin: 80px;
+}
+
+.suite{
+    padding: 0 30px;
+    height: 610px;
+    width: 100%;
+}
+
+.this{
+    font-size: 60px;
+}
+
+.support{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.expert{
+    height: 610px;
+    width: 600px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tool{
+    font-size: 1.2em;
+}
+
+.more{
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    border: none;
+    color: rgb(3, 68, 72);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 992px) {
+    .navbar, .plan, .lens, .enterprise {
+        flex-direction: column;
+    }
+
+    .container{
+        overflow: hidden;
+    }
+
+    .btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .plan, .lens, .enterprise, .category, .admin {
+        padding: 20px;
+    }
+
+    .this {
+        font-size: 40px;
+    }
+
+    .how {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+    }
+
+    .development ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .talent, .look {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .admin {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .enterprise{
+        text-align: center;
+    }
+
+    .paragraph{
+        text-align: center;
+    }
+
+    .expert{
+        width: 100%;
+        height: ;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .container{
+        overflow: hidden;
+    }
+
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0;
+    }
+
+    .navbar ul li {
+        padding: 10px 0;
+    }
+
+    .btn {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .search, .signup, .login {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .plan {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .how {
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .forget {
+        font-size: 1.2em;
+        line-height: 28px;
+    }
+
+    .get-started {
+        padding: 10px;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .download {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .logos {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .lens {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .photo {
+        width: 100%;
+        height: auto;
+    }
+
+    .paragraph {
+        padding: 20px 10px;
+    }
+
+    .game {
+        font-size: 1.8em;
+    }
+
+    .register {
+        font-size: 1.2em;
+    }
+
+    .browse {
+        padding: 0 10px;
+    }
+
+    .learn, .free {
+        width: 100%;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .talent, .look {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .admin {
+        flex-direction: column;
+        padding: 20px 10px;
+        gap: 15px;
+    }
+
+    .writing {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .IT {
+        font-size: 1.2em;
+    }
+
+    .enterprise {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+    .suite {
+        padding: 20px 10px;
+    }
+
+    .this {
+        font-size: 2em;
+    }
+
+    .support, .tool {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .expert {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .more {
+        width: 100%;
+        font-size: 1em;
+        padding: 12px;
+    }
+}
